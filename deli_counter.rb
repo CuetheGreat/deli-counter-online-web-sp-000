@@ -4,9 +4,7 @@ katz_deli=[]
 
 def line(array)
   if array.length != 0
-    array.each_with_index do |person, index|
-      puts "#{index + 1}. #{person}"
-    end
+    puts array
   else
     puts "The line is currently empty."
   end
