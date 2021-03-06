@@ -24,7 +24,7 @@ def now_serving(array)
   if array.length != 0
     
   else
-    puts "The line is currently empty."
+    puts "There is nobody waiting to be served!"
   end
   
 end
