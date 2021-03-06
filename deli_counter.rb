@@ -8,6 +8,6 @@ def line(array)
       puts person
     end
   else
-    puts "the line is currently empty."
+    puts "The line is currently empty."
   end
 end
