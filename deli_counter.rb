@@ -3,7 +3,7 @@
 katz_deli=[]
 
 def line(array)
-  if array
+  if array[0]
     array.each do |person|
       puts person
     end
