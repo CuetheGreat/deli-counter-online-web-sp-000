@@ -4,7 +4,7 @@ katz_deli=[]
 
 def line(array)
   puts array
-  if array
+  if array.length != 0
     array.each_with_index do |person, index|
       puts "#{index + 1}. #{person}"
     end
