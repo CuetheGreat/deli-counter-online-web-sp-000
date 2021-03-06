@@ -8,7 +8,7 @@ def line(array)
     array.each_with_index do |person,index|
       new_array << "#{index + 1}. #{person}"
     end
-    putsnew_array.join(" ")
+    puts new_array.join(" ")
   else
     puts "The line is currently empty."
   end
