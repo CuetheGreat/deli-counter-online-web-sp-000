@@ -4,8 +4,8 @@ katz_deli=[]
 
 def line(array)
   if array[0]
-    array.each do |person|
-      puts person
+    array.each_with_index do |person, index|
+      puts "#{index}. #{person}""
     end
   else
     puts "The line is currently empty."
