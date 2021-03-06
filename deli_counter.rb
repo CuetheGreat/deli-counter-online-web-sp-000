@@ -18,3 +18,13 @@ def take_a_number(array, name)
   array << name
   puts "Welcome, #{name}. You are number #{array.size} in line."
 end
+
+def now_serving
+  
+  if array.length != 0
+    
+  else
+    puts "The line is currently empty."
+  end
+  
+end
